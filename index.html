@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>forms</title>
+</head>
+
+<body>
+    <span> <h2 class="heading">This is HTML form!</h2> </span>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+
+        <input type="text" name="myName" id="name" />
+        <br />
+        <br />
+        <div>Role: <input type="text" /></div>
+        <br />
+        <div>
+            Email:
+            <input type="email" name="myEmail" placeholder="Enter your email" />
+        </div>
+        <br />
+        <div>
+            Password:
+            <input type="password" class="password" placeholder="Enter your password" />
+        </div>
+        <br />
+        <div>Date of Birth: <input type="date" name="myDate" /></div>
+        <br />
+        <div>Are you over 18?:<input type="checkbox" name="myAge" checked /></div>
+        <br />
+        <div>
+            Gender: Male<input type="radio" name="myGender" /> Female<input type="radio" name="myGender" />
+        </div>
+        <br />
+        <div>Number of hours: <input type="number" class="number" /></div>
+        <br />
+        <div>Contact Number: <input type="tel" name="myNumber" /></div>
+        <br />
+        <div>Time: <input type="time" name="myTime" /></div>
+        <br />
+        <div>Search: <input type="search" /></div>
+        <br />
+        <div>
+            File: <input type="file" name="myFile" />
+            <br />
+        </div>
+        <br />
+        <label for="car">Car:</label>
+        <select name="myCar" id="car">
+        <option value="bmw">BMW</option>
+        <option value="vks" selected>Volkswagon</option>
+        <option value="mer">Mercedes</option>
+        <option value="honda">Civic</option>
+      </select>
+        <br />
+        <br />Write your feedback:<br /><textarea name="myText" cols="30" rows="10"></textarea>
+        <br />
+        <div>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </div>
+    </form>
+</body>
+
+</html>
